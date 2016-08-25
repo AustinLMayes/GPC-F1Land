@@ -15,7 +15,7 @@ var yaml = require('node-yaml')
 var app = express();
 
 // Load config
-var config = yaml.read('config.yml')
+var config = yaml.readSync('config.yml')
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
