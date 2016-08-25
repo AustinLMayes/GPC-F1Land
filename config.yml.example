@@ -1,0 +1,4 @@
+apiURL: https://demo.fellowshiponeapi.com/v1
+oauth_credentials:
+  consumer_key: 123
+  consumer_secret: ''
