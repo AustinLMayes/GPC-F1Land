@@ -13,6 +13,7 @@
     "express-session": "^1.14.1",
     "fellowshipone": "^0.3.4",
     "jade": "~1.11.0",
+    "moodle-client": "^0.4.0",
     "morgan": "~1.7.0",
     "node-yaml": "^3.0.0",
     "serve-favicon": "~2.3.0"

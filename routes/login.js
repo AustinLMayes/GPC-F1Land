@@ -1,9 +1,8 @@
 var express = require('express');
 var router = express.Router();
 
-var F1 = require("fellowshipone/index")
-var request = require('request')
-
+var F1 = require("fellowshipone/index");
+var request = require('request');
 
 /* GET users listing. */
 router.post('/', function(req, response, next) {
