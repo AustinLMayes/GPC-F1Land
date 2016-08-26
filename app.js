@@ -36,11 +36,6 @@ var Moodle = require("./utils/moodle");
 
 var moodle = new Moodle(app.get('config')["moodle"]);
 
-moodle.user_exists("austinlm@me.com", function (bool) {
-  console.log(bool);
-})
-
-
 // uncomment after placing your favicon in /public
 //app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
 app.use(logger('dev'));
